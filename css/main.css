@@ -1,0 +1,96 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+}
+
+.left         { text-align: left; }
+.centered     { text-align: center; }
+.right        { text-align: right; }
+
+
+#home {
+  background-color: gray; /*fallback*/
+  background-image: url(../images/succulent.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 35vh;
+}
+#booking {
+  background-color: #B9D3C3;
+  padding: 5vh;
+  color: rgb(52, 73, 94);
+}
+#contact {
+  background-color: #88B09E;
+  color: rgb(52, 73, 94);
+  padding: 5vh;
+}
+
+h1 { font-size: 5.0rem; line-height: 1.2; }
+h2 { font-size: 2.4rem; line-height: 1.25;}
+h3 { font-size: 1.0rem; line-height: 1.3; }
+
+h1,h2,h3{
+  padding:1vh;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding: 5vh;
+}
+
+div a {
+    text-decoration: none;
+    font-size: 3.0rem;
+    text-align: center;
+    color: white;
+    padding: 2vh;
+}
+
+a:hover {
+  color: #5F6F6A;
+}
+
+.button:hover{
+  background-color: #5F6F6A;
+}
+
+/* ----- FORMS --------------------------- */
+
+input,
+textarea {
+  border-style: solid;
+  border: 1px solid grey;
+  padding: 0.8em;
+  font-family: 'Work Sans'; /* Site Font */
+  font-size: 1em;
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  vertical-align: top;
+}
+textarea {
+  min-height: 7em;
+}
+input[type="submit"] {
+  width: auto;
+  border-radius: 8%;
+  display: block;
+  color: rgb(255, 255, 255);
+  background-color: rgb(52, 73, 94); /* featured color */
+}
+
+form [class*=col-] {
+  padding: 1%;
+}
+
+/*MEDIA QUERIES*/
+/*888px 700px*/
